@@ -1,0 +1,61 @@
+{% extends "base.html" %} {% block content %}
+<section>
+    <h2>Popular Titles</h2>
+    <div class="items">
+        {% for game in popular_titles %}
+        <item-overview
+            game_title="{{ game.title }}"
+            game_img="{{ game.cover_img }}"
+            game_rating="{{ game.rating }}"
+        ></item-overview>
+        {% endfor %}
+</section>
+
+<section>
+    <h2>Browse by Platform</h2>
+    <div class="items">
+        {% for game in browse_by_platform %}
+        <item-overview
+            game_title="{{ game.title }}"
+            game_img="{{ game.cover_img }}"
+            game_rating="{{ game.rating }}"
+        ></item-overview>
+        {% endfor %}
+</section>
+
+<section>
+    <h2>About Us</h2>
+    <p>
+        Here at Neon Byte we sell games for your favorite platforms, providing the best user experience we possibly can. We offer our game launcher for PC and game disks in store.
+    </p>
+</section>
+
+<section>
+    <h2>Get in touch</h2>
+    <form class="contact-form" onsubmit="alert('Thank you for your message');return false;">
+        <div class="top-row">
+            <input type="email" name="email" placeholder="Email" />
+            <select name="platform">
+                <option value="">Platform</option>
+                <option value="pc">PC</option>
+                <option value="xbox">Xbox</option>
+                <option value="playstation">Playstation</option>
+                <option value="nintendo">Nintendo</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <textarea name="message" placeholder="Your important message"></textarea>
+    </form>
+</section>
+
+<section>
+    <h2>Find Us</h2>
+    <a class="map" target="_blank" href="https://www.google.com.au/maps/@51.4950091,-0.0814961,3a,75y,238.03h,104.57t/data=!3m7!1e1!3m5!1sEyBF-pW27dind60amxU17g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DEyBF-pW27dind60amxU17g%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D338.76535%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?entry=ttu">
+        <div class="map-view">
+            <img src="7aa228bed940017b81c808cae0d36c2f.png" />
+        </div>
+        <p>Webb St, London SE1 4AS, UK</p>
+    </a>
+</section>
+
+{% endblock %}

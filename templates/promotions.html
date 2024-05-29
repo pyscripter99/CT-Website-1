@@ -1,0 +1,17 @@
+{% extends "base.html" %} {% block content %}
+<section>
+    <h2>Promotions</h2>
+    <div class="items">
+        {% for game in games %}
+        <item-card
+            game_title="{{ game.title }}"
+            game_img="{{ game.cover_img }}"
+            game_rating="{{ game.rating }}"
+            game_description=""
+            game_price="{{ game.price }}"
+        ></item-card>
+        {% endfor %}
+    </div>
+</section>
+
+{% endblock %}

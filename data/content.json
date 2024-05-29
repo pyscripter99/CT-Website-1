@@ -1,0 +1,135 @@
+{
+    "index": {
+        "popular_titles": [
+            {
+                "title": "Red Dead Redemption 2",
+                "cover_img": "3981a77d3ea4b1b003c9ebca8ec0a058.png",
+                "rating": "4.7"
+            },
+            {
+                "title": "Halo Infinite",
+                "cover_img": "178f1a2789d839b710721a6ee12647a6.png",
+                "rating": "3.5"
+            },
+            {
+                "title": "Rise of the Ronin",
+                "cover_img": "f2da418964159aebff580b137ea2e993.png",
+                "rating": "3.5"
+            },
+            {
+                "title": "Grand Theft Auto V",
+                "cover_img": "4f76d96b8cf3f95c8cb94a67af0174ad.png",
+                "rating": "4.4"
+            },
+            {
+                "title": "Rainbow 6 Siege",
+                "cover_img": "03a01d878d8e2bc1f71ca987641c4e15.png",
+                "rating": "4.0"
+            }
+        ],
+        "browse_by_platform": [
+            {
+                "title": "Grand Theft Auto V",
+                "cover_img": "4f76d96b8cf3f95c8cb94a67af0174ad.png",
+                "rating": "4.4"
+            },
+            {
+                "title": "Red Dead Redemption 2",
+                "cover_img": "3981a77d3ea4b1b003c9ebca8ec0a058.png",
+                "rating": "4.7"
+            },
+            {
+                "title": "Halo Infinite",
+                "cover_img": "178f1a2789d839b710721a6ee12647a6.png",
+                "rating": "3.5"
+            },
+            {
+                "title": "Rise of the Ronin",
+                "cover_img": "f2da418964159aebff580b137ea2e993.png",
+                "rating": "3.5"
+            },
+            {
+                "title": "Rainbow 6 Siege",
+                "cover_img": "03a01d878d8e2bc1f71ca987641c4e15.png",
+                "rating": "4.0"
+            }
+        ]
+    },
+    "stock": {
+        "games_pc": [
+            {
+                "title": "Grand Theft Auto V",
+                "cover_img": "4f76d96b8cf3f95c8cb94a67af0174ad.png",
+                "rating": "4.4",
+                "price": "$39.99",
+                "description": "When a young street hustler, a retired bank robber, and a terrifying psychopath find themselves entangled with some of the most frightening and deranged elements of the criminal underworld, the U.S. Government, and the entertainment industry, they must pull off a series of dangerous heists to survive in a ruthless city"
+            },
+            {
+                "title": "Red Dead Redemption 2",
+                "cover_img": "3981a77d3ea4b1b003c9ebca8ec0a058.png",
+                "rating": "4.7",
+                "price": "$59.99",
+                "description": "After a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive."
+            },
+            {
+                "title": "Halo Infinite",
+                "cover_img": "178f1a2789d839b710721a6ee12647a6.png",
+                "rating": "3.5",
+                "price": "$59.99",
+                "description": "An intense fast paced shooter"
+            }
+        ],
+        "games_xbox": [
+            {
+                "title": "Rise of the Ronin",
+                "cover_img": "f2da418964159aebff580b137ea2e993.png",
+                "rating": "3.5",
+                "price": "$59.99",
+                "description": "Rise of the Ronin puts you into the role of a samurai trained alongside another warrior from childhood to be an unstoppable, sword-wielding fighting duo for a group called the Veiled Edge. It's the 1860s and Japan is opening itself to foreign powers, including the United States and England, creating political strife."
+            }
+        ],
+        "games_ps": [
+            {
+                "title": "Rainbow 6 Siege",
+                "cover_img": "03a01d878d8e2bc1f71ca987641c4e15.png",
+                "rating": "4.0",
+                "price": "$59.99",
+                "description": "An intense fast paced shooter"
+            }
+        ],
+        "games_nintendo": [
+            {
+                "title": "Halo Infinite",
+                "cover_img": "178f1a2789d839b710721a6ee12647a6.png",
+                "rating": "3.5",
+                "price": "$59.99",
+                "description": "An intense fast paced shooter"
+            }
+        ]
+    },
+    "promotions": {
+        "games": [
+            {
+                "title": "Grand Theft Auto V",
+                "cover_img": "4f76d96b8cf3f95c8cb94a67af0174ad.png",
+                "rating": "4.4",
+                "price": "$39.99 down to $29.99 with another product",
+                "description": "When a young street hustler, a retired bank robber, and a terrifying psychopath find themselves entangled with some of the most frightening and deranged elements of the criminal underworld, the U.S. Government, and the entertainment industry, they must pull off a series of dangerous heists to survive in a ruthless city"
+            },
+            {
+                "title": "Red Dead Redemption 2",
+                "cover_img": "3981a77d3ea4b1b003c9ebca8ec0a058.png",
+                "rating": "4.7",
+                "price": "$59.99 down to $39.99 with another product",
+                "description": "After a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive."
+            },
+            {
+                "title": "Halo Infinite",
+                "cover_img": "178f1a2789d839b710721a6ee12647a6.png",
+                "rating": "3.5",
+                "price": "$59.99 down to $39.99 with another product",
+                "description": "An intense fast paced shooter"
+            }
+        ]
+    }
+}

@@ -1,0 +1,64 @@
+{% extends "base.html" %} {% block content %}
+
+<section>
+    <div class="video-card">
+        <iframe
+            width="960"
+            height="440"
+            src="https://www.youtube.com/embed/gmA6MrX81z4?si=r8WypvQDLn8JZzQ6"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+        ></iframe>
+    </div>
+</section>
+
+<br />
+
+<section>
+    <div class="document-card">
+        <iframe
+            onload="resizeIframe(this)"
+            frameborder="0"
+            scrolling="no"
+            width="960"
+            height="4150"
+            src="https://docs.google.com/document/d/e/2PACX-1vSutzgoV1nMZNcIu73qIETno9aQwaNEF6lHMu5PE-3uDr9AVjjtmk4nanuEzbY9Alz8qyhp5MvBRQ_R/pub?embedded=true"
+        ></iframe>
+    </div>
+</section>
+
+<br />
+
+<section>
+    <h2>Admin</h2>
+    <form
+        onsubmit="alert('Thank you for your response');return false;"
+        class="admin-form"
+    >
+        <h3>Did you enjoy the website?</h3>
+        <div>
+            <input type="radio" name="response" id="res1" />
+            <label for="res1">Yes</label>
+        </div>
+        <div>
+            <input type="radio" name="response" id="res2" />
+            <label for="res2">No</label>
+        </div>
+
+        <h3>Comments</h3>
+        <textarea name="message" placeholder="Additional comments"></textarea>
+        <input type="submit" value="Submit" />
+    </form>
+</section>
+
+{% endblock %} {% block scripts %}
+<script>
+    function resizeIframe(obj) {
+        obj.style.height =
+            obj.contentWindow.document.documentElement.scrollHeight + "px";
+    }
+</script>
+{% endblock %}

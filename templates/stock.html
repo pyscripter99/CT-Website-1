@@ -1,0 +1,61 @@
+{% extends "base.html" %} {% block content %}
+<section>
+    <h2>Stock PC</h2>
+    <div class="items">
+        {% for game in games_pc %}
+        <item-card
+            game_title="{{ game.title }}"
+            game_img="{{ game.cover_img }}"
+            game_rating="{{ game.rating }}"
+            game_description="{{ game.description }}"
+            game_price="{{ game.price }}"
+        ></item-card>
+        {% endfor %}
+    </div>
+</section>
+
+<section>
+    <h2>Stock Xbox</h2>
+    <div class="items">
+        {% for game in games_xbox %}
+        <item-card
+            game_title="{{ game.title }}"
+            game_img="{{ game.cover_img }}"
+            game_rating="{{ game.rating }}"
+            game_description="{{ game.description }}"
+            game_price="{{ game.price }}"
+        ></item-card>
+        {% endfor %}
+    </div>
+</section>
+
+<section>
+    <h2>Stock Nintendo</h2>
+    <div class="items">
+        {% for game in games_nintendo %}
+        <item-card
+            game_title="{{ game.title }}"
+            game_img="{{ game.cover_img }}"
+            game_rating="{{ game.rating }}"
+            game_description="{{ game.description }}"
+            game_price="{{ game.price }}"
+        ></item-card>
+        {% endfor %}
+    </div>
+</section>
+
+<section>
+    <h2>Stock PS</h2>
+    <div class="items">
+        {% for game in games_ps %}
+        <item-card
+            game_title="{{ game.title }}"
+            game_img="{{ game.cover_img }}"
+            game_rating="{{ game.rating }}"
+            game_description="{{ game.description }}"
+            game_price="{{ game.price }}"
+        ></item-card>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}
